@@ -1,28 +1,7 @@
-== README
+== CodenCoffee
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Rails app which runs [CodenCoffee.org](http://codencoffee.org). Code & Coffee is a series of informal gatherings among like-minded coders who love coffee.
 
-Things you may want to cover:
+Attend our official Meetups, or broadcast your own Code & Coffee to other members of the Code and Coffee community at any time on [CodenCoffee.org](http://codencoffee.org).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+If you see a bug or opportunity for improvement, please feel free to submit issues and/or send over a pull request.
