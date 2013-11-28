@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>We're sorry, but something went wrong (500)</title>
+  <title>No More Coffee (500)</title>
+  <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
   <style>
   body {
-    background-color: #EFEFEF;
+    background-color: #BBB5AC;
     color: #2E2F30;
     text-align: center;
-    font-family: arial, sans-serif;
+    font-family: 'Wellfleet', arial, sans-serif;
   }
 
   div.dialog {
     width: 25em;
-    margin: 4em auto 0 auto;
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #BBB;
-    border-top: #B00100 solid 4px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+    margin: 2em auto 0 auto;
     background-color: white;
-    padding: 7px 4em 0 4em;
+    padding: 2em;
   }
 
   h1 {
-    font-size: 100%;
+    font-size: 2em;
     color: #730E15;
     line-height: 1.5em;
   }
@@ -34,24 +28,60 @@
     width: 33em;
     margin: 0 auto 1em;
     padding: 1em 0;
-    background-color: #F7F7F7;
     border: 1px solid #CCC;
-    border-right-color: #999;
-    border-bottom-color: #999;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-color: #DADADA;
-    color: #666;
     box-shadow:0 3px 8px rgba(50, 50, 50, 0.17);
   }
+  .text-left {
+    text-align: left;
+  }
+  .text-muted {
+    color: #7A7575;
+  }
+  .text-brown {
+    color: brown;
+  }
+  .wide {
+    width: 100%;
+  }
+  .center {
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+  }
+  ul {
+    list-style: none;
+    line-height: 1.75em;
+  }
+  .shadow-light {
+    box-shadow: 2px 2px 4px #969696;
+  }
+  a {
+    text-decoration: none;
+    color: brown;
+    padding: 0.5em;
+    margin: 1em;
+    border: solid 3px #ccc;
+    display: block;
+  }
+  a:hover {
+    background-color: #ddd;
+  }
+
   </style>
 </head>
 
 <body>
-  <!-- This file lives in public/500.html -->
-  <div class="dialog">
-    <h1>We're sorry, but something went wrong.</h1>
+  <!-- This file lives in public/422.html -->
+  <div class="dialog shadow-light">
+    <img alt="Coffee" src="assets/where-is-my-coffee.gif"/>
+    <h1 class="text-brown">Something went wrong. <span class="text-muted">(500)</span></h1>
+    <p>It looks like something's broken in our system.</p>
+    <div class="center">
+      <a href='mailto:admin@codencoffee.org?subject=Hey, I got a 500 error!'>Tell the authorities</a>
+      <a href='/'>Refresh the Page</a>
+      <a>Come back later</a>
+    </div>
   </div>
-  <p>If you are the application owner check the logs for more information.</p>
+
 </body>
 </html>
