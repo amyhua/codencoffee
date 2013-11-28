@@ -1,0 +1,113 @@
+<div id="map" class="fullsize"></div>
+
+<div class="top-right-panel">
+  <span class="signed-in text-right"><small>Signed in as Amy Hua. <a href="#">Sign out</a></small></span>
+</div>
+<div class="top-left-panel">
+  <div class="off-white-box shadow-light">
+    <h1>
+      Code & Coffee... <span id="broadcasting-icon"><i class="text-muted center-lg animate-spin icon-signal"></i></span>
+      <span class="pull-right text-muted">
+      <i id="icon-expand" class="icon-angle-circled-down" style="font-size: 0.5em;"></i>
+    </span>
+    </h1>
+    <div id="broadcasting">
+
+        <div class="preview-box">
+            <span id="message_preview"></span>
+            <br>
+            <small class="signature">
+              -- <span id="name_preview"></span> @ <span id="coffee_shop_preview"></span>
+            </small>
+        </div>
+        <div class="text-right">
+              <small class="text-muted">
+                <a href="#" class="hover-brown plain-link text-brown">Edit</a> / <a href="#" class="hover-brown plain-link text-brown">Stop</a> Broadcast
+              </small>
+            </div>
+        <hr class="subtle-divider">
+        <p class="text-muted">Keep this window open on your browser to update your broadcast every 15 minutes.</p>
+      </div>
+    <div class="toggle-hide">
+      <div id="intro">
+        <p>
+          ...is about meeting other like-minded individuals through our mutual love
+          of both code and coffee.
+        </p>
+        <p>
+          Attend our official Meetups, or broadcast your own Code & Coffee
+          to other members of the Code and Coffee community.
+        </p>
+        <p class="text-brown">
+          Where are you coding now?
+        </p>
+        <div class="form">
+          <%= text_field_tag :coffee_shop, nil, placeholder: 'Coffee Shop', class: 'text form-control' %>
+          <%= text_field_tag :name, nil, placeholder: 'Your Name', class: 'text form-control' %>
+          <%= text_area_tag :message, nil, placeholder: 'Message', class: 'textarea form-control', maxlength: '140' %>
+
+          <a href="#" id="broadcast-btn" class="center form-btn btn wide btn-coffee">
+            Broadcast
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="top-right-panel">
+  <div class="off-white-box shadow-light">
+    <h3>Official Meetups</h3>
+    <div class="fixed-expand">
+      <ul class="listing">
+        <li>
+          <strong>Dec 1, 2013 6pm-9pm</strong><br>
+          <a href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+           <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+        <li>
+          <strong>Dec 2, 2013 6pm-9pm</strong><br>
+          <a href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+           <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+        <li>
+          <strong>Dec 3, 2013 6pm-9pm</strong><br>
+          <a href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+           <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+        <li>
+          <strong>Dec 4, 2013 6pm-9pm</strong><br>
+          <a href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+           <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+        <li>
+          <strong>Dec 5, 2013 6pm-9pm</strong><br>
+          <a href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+           <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+        <li>
+          <strong>Dec 6, 2013 6pm-9pm</strong><br>
+          <a data-lat="42.3" data-lng="43.2" href="#" class="plain-link hover-brown"><i class="icon-location"> </i>
+            <em>Roy St Coffee Shop</em>
+          </a>
+          <hr class="subtle-divider">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div> <!-- top-right panel -->
+<div class="bottom-right-panel">
+  <div id="chat">
+    <i class="text-brown icon-chat"></i> <span class="badge">25 online</span>
+  </div>
+</div>

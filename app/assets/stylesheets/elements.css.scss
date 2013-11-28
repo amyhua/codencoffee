@@ -1,0 +1,39 @@
+$bg-color: rgb(255, 248, 210);
+.signed-in{
+  padding: 20px;
+  color: white;
+  position: relative;
+  z-index: 50;
+  a {
+  color: #ddd;
+  }
+}
+a.mapbox-info-toggle{
+  display: none;
+}
+
+#icon-expand {
+  cursor: pointer;
+}
+#chat {
+  background-color: $bg-color;
+  padding: 10px;
+}
+.text-plain {
+  font-family: Arial, Helvetica, 'Helvetica Neue', sans serif !important;
+}
+.badge {
+  display: inline-block;
+  font-family: Arial, Helvetica, 'Helvetica Neue', sans serif !important;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1em;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: rgba(155, 80, 30, 0.8);
+  border-radius: 10px;
+}

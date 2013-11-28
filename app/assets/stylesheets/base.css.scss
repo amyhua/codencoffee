@@ -1,0 +1,193 @@
+$padding: 20px;
+$bg-color: rgb(255, 248, 210);
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Satisfy', serif;
+  font-size: 1.1em;
+  text-overflow: ellipsis;
+}
+h1, h2, h3 {
+  font-family: 'Marck Script', cursive;
+  color: rgb(187, 33, 33);
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+.off-white-box {
+  padding: $padding;
+  border-radius: 2px;
+  margin-top: 30px;
+  overflow: auto;
+  background-color: $bg-color;
+  opacity: 0.9;
+}
+.top-left-panel {
+  position: absolute;
+  left: $padding;
+  top: 0;
+  width: 375px;
+}
+
+.top-right-panel {
+  position: absolute;
+  right: $padding;
+  top: 0;
+  max-width: 300px;
+}
+
+.bottom-right-panel {
+  position: absolute;
+  right: $padding;
+  bottom: 0;
+  max-width: 375px;
+}
+.text-right {
+  text-align: right;
+}
+.text-muted {
+  color: #7A7575;
+}
+.text-brown {
+  color: rgb(187, 33, 33);
+}
+.wide {
+  width: 100%;
+}
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.shadow-light {
+  box-shadow: 2px 2px 4px #969696;
+}
+
+.listing {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.subtle-divider {
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.signature {
+  padding-left: 2em;
+}
+.preview-box {
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: rgba(255, 212, 119, 0.5);
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+// icons
+
+i.center-lg {
+    padding-bottom: 1em;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 1em;
+}
+i.center {
+    padding-bottom: 1em;
+    font-size: 0.5em;
+    position: relative;
+    bottom: 1em;
+}
+
+// links
+
+a.plain-link {
+  text-decoration: none;
+  color: inherit;
+}
+.hover-brown:hover {
+  color: brown;
+}
+.hover-red:hover {
+  color: red;
+}
+
+// forms
+
+.form-control {
+  border-radius: 2px;
+  border: 0;
+  background-color: #FCF9F0;
+  font-family: inherit;
+  padding: 5%;
+  width: 90%;
+  box-shadow: inset 3px 3px 5px #E0DDCF, inset -3px -3px 5px #E0DDCF;
+  &.text, &.textarea {
+    margin-bottom: 10px;
+  }
+}
+.inline-group {
+  @extend .clearfix;
+  div {
+  float: left;
+  padding: 5px;
+  }
+}
+.textarea, .text {
+  font-size: 1em;
+  line-height: 1.25em;
+}
+.textarea {
+  margin: 0;
+  min-width: 90%;
+  max-width: 90%;
+  height: 24px;
+}
+.text {
+  margin: 0;
+}
+.form-btn {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// format
+
+.fixed-expand {
+  overflow: auto;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.toggle-hide {
+  padding-top: 5px;
+  margin: 0;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
