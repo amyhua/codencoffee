@@ -1,5 +1,7 @@
 ##CodenCoffee
 
+**This is an actively developed project.** Current domain reroutes to nonsense. Run this on a Node server to view latest progress.
+
 This is the Rails app which runs [CodenCoffee.org](http://codencoffee.org). Code & Coffee is a series of informal gatherings among like-minded coders who love coffee. Starting in Seattle, we hope to spread Code & Coffee anywhere coders drink coffee.
 
 Attend our official Meetups, or broadcast your own Code & Coffee to other members of the Code and Coffee community at any time on [CodenCoffee.org](http://codencoffee.org).
